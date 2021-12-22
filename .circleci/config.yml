@@ -31,6 +31,9 @@ jobs:
       - run:
           name: Run tests
           command: npm test
+      - run:
+        name: Show Version
+        command: node --version
 
 workflows:
   # Below is the definition of your workflow.
